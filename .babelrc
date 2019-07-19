@@ -1,0 +1,8 @@
+{
+  "presets": [
+    ["env", { "modules": false }],
+    "stage-3"
+  ],
+  // babel-plugin-transform-object-rest-spreadをインストールして、JSの新機能を使う
+  "plugins": ["transform-object-rest-spread"]
+}
